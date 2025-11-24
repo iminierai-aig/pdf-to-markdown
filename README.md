@@ -44,10 +44,12 @@ See --help for all flags.
 ## Demo
 Watch the `--watch` mode in action - drop a pdf and see instant conversion!
 <iframe src="https://www.loom.com/embed/3c02aefe0a534cfdbd134b8ab91901ae" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: relative; top: 0; left: 0; width: 100%; max-width: 700px; height: 450px;"></iframe>
+
 ```
 git clone https://github.com/iminierai-aig/pdf-to-markdown.git
 cd pdf-to-markdown
 pip install -e .
+
 ```
 
 Built with using PyMuPDF, loguru, and rich. Contributions welcome!
