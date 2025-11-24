@@ -1,4 +1,4 @@
-Markdown# pdf-to-markdown ✦
+## pdf-to-markdown ✦
 
 Lightning-fast PDF → clean Markdown converter  
 Preserves bold/italic, extracts images, live folder watching
@@ -8,7 +8,8 @@ Preserves bold/italic, extracts images, live folder watching
 ```bash
 pip install git+https://github.com/iminierai-aig/pdf-to-markdown.git
 # or (once on PyPI): pip install pdf-to-markdown
-Features
+```
+## Features
 
 🔤 Preserves bold and italic formatting
 🖼️ Extracts and embeds images with relative paths
@@ -17,10 +18,16 @@ Features
 📦 Batch + glob support (*.pdf)
 ⚡ Zero bloat — lightweight dependencies
 
+```
 Installation
+
 Bashpip install git+https://github.com/iminierai-aig/pdf-to-markdown.git
+
+```
 Usage
-Bash# Single file
+
+# Single file
+
 pdftomarkd paper.pdf                     # → paper.md + images/
 
 # Batch mode
@@ -38,12 +45,10 @@ pdftomarkd bigfile.pdf -q
 See --help for all flags.
 
 # Demo
-(Add a GIF here once recorded: e.g., Watch Mode)
-Drop a PDF into a watched folder → instant Markdown + images extracted.
-Development
-Bashgit clone https://github.com/iminierai-aig/pdf-to-markdown.git
+git clone https://github.com/iminierai-aig/pdf-to-markdown.git
 cd pdf-to-markdown
 pip install -e .
+
 Built with using PyMuPDF, loguru, and rich. Contributions welcome!
 
 ## License
