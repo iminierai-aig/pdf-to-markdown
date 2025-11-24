@@ -21,7 +21,7 @@ pip install pdftomarkd
 Or install from source:
 
 ```bash
-git clone https://github.com/iminierai-aig/pdftomarkd.git
+git clone https://github.com/iminierai-aig/pdf-to-markdown.git
 cd pdftomarkd
 pip install .
 ```
