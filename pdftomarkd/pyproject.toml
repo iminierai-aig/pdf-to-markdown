@@ -1,0 +1,24 @@
+[project]
+name = "pdf-to-markdown"
+version = "0.2.0"
+description = "Lightning-fast PDF → Markdown converter with images, metadata, and watch mode"
+authors = [{name = "Your Name", email = "you@example.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pymupdf>=1.24.0",
+    "loguru",
+    "rich"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/pdf-to-markdown"
+Repository = "https://github.com/yourname/pdf-to-markdown"
+
+[project.scripts]
+pdftomarkd = "pdftomarkd:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
