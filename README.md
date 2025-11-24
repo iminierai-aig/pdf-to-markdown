@@ -43,7 +43,7 @@ See --help for all flags.
 
 ## Demo
 Watch the `--watch` mode in action - drop a pdf and see instant conversion!
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/3c02aefe0a534cfdbd134b8ab91901ae" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://www.loom.com/embed/3c02aefe0a534cfdbd134b8ab91901ae" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 
 ```
 git clone https://github.com/iminierai-aig/pdf-to-markdown.git
